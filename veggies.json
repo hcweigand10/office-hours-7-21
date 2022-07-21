@@ -1,0 +1,20 @@
+[
+    {
+    "name":"bok choy",
+    "id":"1",
+    "color":"green",
+    "size":"8in"
+    },
+    {
+    "name":"pepper",
+    "id":"2",
+    "color":"red",
+    "size":"4in"
+    },
+    {
+    "name":"zucchini",
+    "id":"86",
+    "color":"green",
+    "size":"5in"
+    }
+]
