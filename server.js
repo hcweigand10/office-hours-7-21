@@ -1,5 +1,5 @@
 const express = require("express")
-const PORT = 3002
+const PORT = process.env.PORT || 3002
 const veggies = require("./veggies.json")
 
 const app = express()
