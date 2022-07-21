@@ -3,6 +3,8 @@ const PORT = process.env.PORT || 3002
 const veggies = require("./db/veggies.json")
 
 const app = express()
+app.use(express.static('public'));
+
 
 app.get("/hi", (req,res) => {
     return res.json({msg: "hi"})
